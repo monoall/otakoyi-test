@@ -84,7 +84,7 @@ class _SearchScreenBodyState extends State<SearchScreenBody> {
 
   Widget _buildFilterSection() => Container(
         decoration: BoxDecoration(
-          color: AppColors.lightGrey.withOpacity(0.38),
+          color: AppColors.lightGrey38,
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(12),
             bottomRight: Radius.circular(12),

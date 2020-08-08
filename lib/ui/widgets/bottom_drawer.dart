@@ -56,7 +56,7 @@ class _BottomDrawerState extends State<BottomDrawer> {
         BottomNavigationBarItem(
           icon: SvgPicture.asset(
             'assets/ic_profile.svg',
-            color: AppColors.darkBlue.withOpacity(0.38),
+            color: AppColors.darkBlue38,
           ),
           title: Text('Profile'),
           activeIcon: SvgPicture.asset(

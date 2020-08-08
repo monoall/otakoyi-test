@@ -6,7 +6,6 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  google_fonts: ^1.1.0
   flutter_svg: 0.18.0
   intl: ^0.16.1
   flutter:
@@ -21,5 +20,11 @@ dev_dependencies:
 flutter:
   assets:
     - assets/
+    - fonts/
+
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: fonts/Worksans.ttf
 
   uses-material-design: true

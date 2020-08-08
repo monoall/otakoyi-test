@@ -52,7 +52,7 @@ class SearchResultsListItem extends StatelessWidget {
           //Content text
           Padding(
             padding: const EdgeInsets.only(top: 16),
-            child: Text(data.content, style: AppTextStyles.body2.copyWith(color: AppColors.darkBlue.withOpacity(0.6))),
+            child: Text(data.content, style: AppTextStyles.body2.copyWith(color: AppColors.darkBlue60)),
           ),
 
           //Bottom chips
@@ -164,7 +164,7 @@ class SearchResultsListItem extends StatelessWidget {
           Text(
             label1,
             style: AppTextStyles.caption2.copyWith(
-              color: AppColors.darkBlue.withOpacity(0.38),
+              color: AppColors.darkBlue38,
             ),
           ),
           SizedBox(height: 4),
@@ -176,7 +176,7 @@ class SearchResultsListItem extends StatelessWidget {
           Text(
             label2,
             style: AppTextStyles.caption2.copyWith(
-              color: AppColors.darkBlue.withOpacity(0.38),
+              color: AppColors.darkBlue38,
             ),
           ),
           SizedBox(height: 4),

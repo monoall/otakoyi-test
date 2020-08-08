@@ -24,7 +24,7 @@ class CustomChip extends StatelessWidget {
           if (leadingIcon != null) leadingIcon,
           if (leadingIcon != null) SizedBox(width: 6),
           //title
-          if (title != null) Text(title, style: AppTextStyles.caption1.copyWith(color: AppColors.darkBlue.withOpacity(0.6))),
+          if (title != null) Text(title, style: AppTextStyles.caption1.copyWith(color: AppColors.darkBlue60)),
           if (title != null) SizedBox(width: 3),
           //value
           if (value != null)

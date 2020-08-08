@@ -20,7 +20,7 @@ class ListPlaceholder extends StatelessWidget {
           SizedBox(height: 32),
           Text('Create your\nfirst case',
               textAlign: TextAlign.center,
-              style: AppTextStyles.headline2.copyWith(color: AppColors.darkBlue.withOpacity(0.6))),
+              style: AppTextStyles.headline2.copyWith(color: AppColors.darkBlue60)),
         ],
       ),
     );

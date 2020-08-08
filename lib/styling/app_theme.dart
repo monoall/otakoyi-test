@@ -5,6 +5,7 @@ import 'package:otakoyi_test/styling/app_text_styles.dart';
 ThemeData appTheme = ThemeData(
   primaryColor: AppColors.darkBlue,
   primarySwatch: AppColors.makeSwatch(AppColors.gold),
+  fontFamily: 'WorkSans',
   errorColor: AppColors.red,
   appBarTheme: _buildAppBarTheme(),
   sliderTheme: _buildSliderTheme(),
@@ -19,10 +20,10 @@ ThemeData appTheme = ThemeData(
 BottomNavigationBarThemeData _buildBottomNavigationBarTheme() => BottomNavigationBarThemeData(
       elevation: 14,
       selectedItemColor: AppColors.darkBlue,
-      unselectedItemColor: AppColors.darkBlue.withOpacity(0.38),
+      unselectedItemColor: AppColors.darkBlue38,
       showUnselectedLabels: true,
       selectedLabelStyle: AppTextStyles.caption2.copyWith(color: AppColors.darkBlue),
-      unselectedLabelStyle: AppTextStyles.caption2.copyWith(color: AppColors.darkBlue.withOpacity(0.38)),
+      unselectedLabelStyle: AppTextStyles.caption2.copyWith(color: AppColors.darkBlue38),
       selectedIconTheme: IconThemeData(
         color: AppColors.darkBlue,
       ),
@@ -45,16 +46,16 @@ SliderThemeData _buildSliderTheme() => SliderThemeData(
 InputDecorationTheme _buildInputDecorationTheme() => InputDecorationTheme(
       filled: true,
       fillColor: AppColors.white,
-      border: _inputBorderByColor(AppColors.darkBlue.withOpacity(0.24)),
+      border: _inputBorderByColor(AppColors.darkBlue24),
       focusedBorder: _inputBorderByColor(AppColors.gold),
       errorBorder: _inputBorderByColor(AppColors.red),
       helperStyle: AppTextStyles.helper,
       errorStyle: AppTextStyles.helper.copyWith(color: AppColors.red),
-      hintStyle: AppTextStyles.subtitle1.copyWith(color: AppColors.darkBlue.withOpacity(0.38)),
+      hintStyle: AppTextStyles.subtitle1.copyWith(color: AppColors.darkBlue38),
     );
 
 DividerThemeData _buildDividerThemeData() => DividerThemeData(
-      color: AppColors.grey.withOpacity(0.6),
+      color: AppColors.grey60,
       thickness: 1,
     );
 

@@ -14,14 +14,14 @@ class AppInputField extends StatefulWidget {
 
 class _AppInputFieldState extends State<AppInputField> {
   FocusNode _focusNode;
-  Color _labelColor = AppColors.darkBlue.withOpacity(0.38);
+  Color _labelColor = AppColors.darkBlue38;
 
   @override
   void initState() {
     super.initState();
     _focusNode = FocusNode()
       ..addListener(() => setState(() {
-            _labelColor = _focusNode.hasFocus ? AppColors.gold : AppColors.darkBlue.withOpacity(0.38);
+            _labelColor = _focusNode.hasFocus ? AppColors.gold : AppColors.darkBlue38;
           }));
   }
 
